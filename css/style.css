@@ -1,0 +1,72 @@
+/*body {
+  background-color: black;
+  color: white;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}*/
+
+body, html {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  background: #A7A09A;
+}
+
+#wrap {
+  width: 90%;
+  margin: 0 auto;
+  background: #99C;
+}
+
+#header {
+background:#ddd;
+padding:5px 10px;
+}
+
+h1 {
+  margin: 0;
+}
+
+#nav {
+background:#c99;
+}
+
+#main {
+padding: 10px;
+background:#9c9;
+float: left;
+width: 60%;
+/*min-width: 150px;*/
+}
+
+h2 {
+  margin: 0 0 1em;
+}
+
+#sidebar {
+padding: 10px;
+background:#99c;
+width: 28%;
+/*min-width: 150px;*/
+float: right;
+}
+
+#footer {
+padding:5px 10px;
+background:#cc9;
+clear: both;
+}
+
+* html #footer {
+  height: 1px;
+}
+#nav ul {
+margin:0;
+padding:0;
+list-style:none;
+}
+
+#nav li {
+display:inline;
+margin:0;
+padding:0;
+}
